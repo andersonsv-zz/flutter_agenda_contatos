@@ -30,10 +30,10 @@ class Contact{
 
   Map toMap() {
     Map<String, dynamic> map = {
-      nameColumn: name;
-      emailColumn: email;
-      phoneColumn: phone;
-      imgColumn: img;
+      nameColumn: name,
+      emailColumn: email,
+      phoneColumn: phone,
+      imgColumn: img,
     };
     if(id != null){
       map[idColumn] = id;
