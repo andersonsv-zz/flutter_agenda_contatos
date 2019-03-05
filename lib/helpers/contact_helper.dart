@@ -7,11 +7,12 @@ final String phoneColumn = "phoneColumn";
 final String imgColumn = "imgColumn";
 
 class ContactHelper {
+  static final ContactHelper _instance = ContactHelper.internal();
 
+  factory ContactHelper() => _instance;
+
+  ContactHelper.internal();
 }
-
-// id   name  email             phone     img
-// 0    Nome  emaildocontato@   (11)11111
 
 class Contact{
   int id;
