@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text(contacts[index].name ?? "",
+                    Text(contacts[indexgit t].name ?? "",
                         style: TextStyle(
                             fontSize: 22, fontWeight: FontWeight.bold)),
                     Text(contacts[index].email ?? "",
